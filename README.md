@@ -49,6 +49,10 @@ npm run check
 node bin/reprokit.mjs --output .reprokit-demo
 ```
 
+### Continuous integration
+
+A ready-to-use GitHub Actions workflow lives at [`docs/github-actions-test.yml`](docs/github-actions-test.yml). Copy it to `.github/workflows/test.yml` after the repository token or account has permission to create workflow files. The workflow runs the unit tests and syntax checks on Node.js 18, 20 and 22.
+
 ## Roadmap
 
 The first release targets Node, Python, Rust and Go repositories. Future versions may add opt-in issue-template mapping, custom safe collectors, and integrations with GitHub CLI. ReproKit will keep external uploads and automatic issue creation opt-in.
