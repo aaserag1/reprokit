@@ -1,0 +1,39 @@
+{
+  "name": "reprokit",
+  "version": "0.1.0",
+  "description": "Privacy-first GitHub issue repro bundles from local repository metadata",
+  "type": "module",
+  "bin": {
+    "reprokit": "bin/reprokit.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check bin/reprokit.mjs && node --check src/index.mjs && node --check src/collect.mjs && node --check src/redact.mjs && node --check src/report.mjs"
+  },
+  "keywords": [
+    "github",
+    "bug-report",
+    "diagnostics",
+    "privacy",
+    "cli",
+    "reproducible"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaserag1/reprokit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aaserag1/reprokit/issues"
+  },
+  "homepage": "https://github.com/aaserag1/reprokit#readme",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
