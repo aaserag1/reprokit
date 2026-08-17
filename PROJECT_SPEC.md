@@ -7,9 +7,9 @@ Generate a maintainer-ready GitHub issue draft from the current repository witho
 ## CLI contract
 
 ```bash
-npx reprokit
-npx reprokit --output .reprokit
-npx reprokit --title "Build fails after dependency update"
+npx @aaserag/reprokit
+npx @aaserag/reprokit --output .reprokit
+npx @aaserag/reprokit --title "Build fails after dependency update"
 ```
 
 The command writes `repro.md` and `repro.json`. It never opens an issue, contacts GitHub, uploads a file, runs an application test command, or reads secret values from environment files.

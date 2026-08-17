@@ -1,5 +1,5 @@
 {
-  "name": "reprokit",
+  "name": "@aaserag/reprokit",
   "version": "0.1.0",
   "description": "Privacy-first GitHub issue repro bundles from local repository metadata",
   "type": "module",
@@ -30,6 +30,9 @@
     "url": "https://github.com/aaserag1/reprokit/issues"
   },
   "homepage": "https://github.com/aaserag1/reprokit#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "bin",
     "src",
